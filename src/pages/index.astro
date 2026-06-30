@@ -56,15 +56,9 @@ const homePath = getRelativeLocaleUrl(locale, "");
         Rotta è un blog personale che condivide frammenti di vita, pensieri e idee. 
         Un viaggio attraverso le esperienze quotidiane, le riflessioni e le passioni dell'autore.
       </p>
-      <p class="mt-2">
-        Leggi i post del blog o consulta
-      </p>
       {
         socials.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              {t.home.socialLinks}:
-            </div>
             <Socials />
           </div>
         )
