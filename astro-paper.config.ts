@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://rotta.com/",
+    title: "Rotta",
+    description: "Rotta è un blog personale che condivide frammenti di vita, pensieri e idee. Un viaggio attraverso le esperienze quotidiane, le riflessioni e le passioni dell'autore.",
+    author: "Alessio Cracchiolo",
+    profile: "https://www.instagram.com/alessio44/",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    lang: "it",
+    timezone: "Europe/Rome",
     dir: "ltr",
   },
   posts: {
@@ -20,19 +20,19 @@ export default defineAstroPaperConfig({
   features: {
     lightAndDarkMode: true,
     dynamicOgImage: true,
-    showArchives: true,
+    showArchives: false,
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/alessiocracchiolo/astro-blog/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    // { name: "github",   url: "https://github.com/alessiocracchiolo" },  
+    // { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
+    { name: "mail",     url: "mailto:alessiocracchiolo@hotmail.com" },
+    { name: "instagram", url: "https://www.instagram.com/alessio44/" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
