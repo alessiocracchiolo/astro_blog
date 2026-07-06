@@ -1,37 +1,22 @@
 ---
-title: "About"
-description: "A bit about me and this blog."
+title: "Manifesto"
+description: "Cos'è Rotta, perché esiste e cosa troverai qui."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Una rotta non è una linea retta. È una direzione che si corregge di continuo, tenendo conto del vento, delle correnti e di dove ci si trova davvero — non di dove si pensava di essere.
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+Questo blog si chiama **Rotta** per questo: non è un punto di arrivo, è il tracciato di un viaggio.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## Cosa troverai qui
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Frammenti di vita, pensieri e idee. Riflessioni nate dalle esperienze di ogni giorno, dalle passioni che coltivo e dalle domande che non mi lasciano in pace. Niente pretese di verità assolute: appunti di navigazione, scritti soprattutto per fare chiarezza a me stesso — e condivisi nella speranza che siano utili anche a qualcun altro.
 
-## Features
+## Perché scrivere
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Scrivere obbliga a mettere ordine. Un pensiero che sembra chiaro in testa spesso si rivela confuso appena lo si mette su carta: scriverlo è il modo più onesto di verificarlo. Questo spazio è il mio diario di bordo, pubblico per scelta.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## Chi sono
 
-and so much more.
+Sono Alessio. Se vuoi dirmi qualcosa — un'idea, una critica, un saluto — mi trovi ai contatti in fondo alla pagina. Le conversazioni migliori nascono quasi sempre così.
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Buona navigazione. ⛵

@@ -2,7 +2,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://rotta.com/",
+    // TODO: sostituire con il dominio definitivo prima del deploy
+    // (usato per sitemap, feed RSS, link canonici e meta tag OG)
+    url: "https://rotta.example.com/",
     title: "Rotta",
     description: "Rotta è un blog personale che condivide frammenti di vita, pensieri e idee. Un viaggio attraverso le esperienze quotidiane, le riflessioni e le passioni dell'autore.",
     author: "Alessio Cracchiolo",
@@ -24,7 +26,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/alessiocracchiolo/astro-blog/edit/main/",
+      url: "https://github.com/alessiocracchiolo/astro_blog/edit/main/",
     },
     search: "pagefind",
   },
