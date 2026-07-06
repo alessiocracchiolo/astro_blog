@@ -2,10 +2,8 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    // Deploy su GitHub Pages: origine del sito (il percorso /astro_blog/
-    // è gestito da `base` in astro.config.ts). Se in futuro usi un dominio
-    // custom, aggiorna questo URL e rimuovi `base`.
-    url: "https://alessiocracchiolo.github.io",
+    // Dominio custom (registrato su Cloudflare), servito da GitHub Pages.
+    url: "https://rott4.com",
     title: "Rotta",
     description: "Rotta è un blog personale che condivide frammenti di vita, pensieri e idee. Un viaggio attraverso le esperienze quotidiane, le riflessioni e le passioni dell'autore.",
     author: "Alessio Cracchiolo",

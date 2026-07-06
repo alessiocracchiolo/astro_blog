@@ -2,7 +2,7 @@
 
 Blog personale di Alessio Cracchiolo: frammenti di vita, pensieri e idee.
 
-**Online su → https://alessiocracchiolo.github.io/astro_blog/**
+**Online su → https://rott4.com**
 
 Costruito con [Astro](https://astro.build/) e Tailwind CSS, basato sul tema [AstroPaper](https://github.com/satnaing/astro-paper) (MIT).
 
@@ -13,7 +13,7 @@ Richiede Node.js ≥ 22.12 e [pnpm](https://pnpm.io/).
 | Comando              | Azione                                                 |
 | -------------------- | ------------------------------------------------------ |
 | `pnpm install`       | Installa le dipendenze                                 |
-| `pnpm dev`           | Server di sviluppo su `localhost:4321/astro_blog/`     |
+| `pnpm dev`           | Server di sviluppo su `localhost:4321`                 |
 | `pnpm new "Titolo"`  | Crea un nuovo articolo dal template (in bozza)         |
 | `pnpm build`         | Build di produzione in `dist/` (con ricerca Pagefind)  |
 | `pnpm preview`       | Anteprima locale della build                           |
@@ -40,19 +40,20 @@ Il sito è pubblicato **gratuitamente** su GitHub Pages. Ogni push su `main` fa 
 
 1. installa le dipendenze con pnpm;
 2. esegue `pnpm build` (include `astro check` e l'indice di ricerca Pagefind);
-3. pubblica `dist/` su https://alessiocracchiolo.github.io/astro_blog/
+3. pubblica `dist/` su https://rott4.com
 
 Lo stato dei deploy è visibile nella tab [Actions](https://github.com/alessiocracchiolo/astro_blog/actions) del repo; il workflow si può anche rilanciare a mano da lì (*Run workflow*).
 
 Limiti del piano gratuito (abbondanti per un blog personale): sito pubblicato max 1 GB, banda ~100 GB/mese, ~10 deploy l'ora.
 
-### Base path e dominio custom
+### Dominio custom
 
-Il sito vive sotto il percorso `/astro_blog/`, configurato con `base` in `astro.config.ts` (per questo anche il dev server usa quel percorso). Se in futuro passi a un dominio personalizzato:
+Il dominio `rott4.com` è registrato su Cloudflare e punta a GitHub Pages:
 
-1. aggiorna `site.url` in `astro-paper.config.ts`;
-2. rimuovi la riga `base` da `astro.config.ts`;
-3. configura il dominio in *Settings → Pages* del repo.
+- **DNS (Cloudflare)**: record `A` sull'apex verso gli IP di GitHub Pages (185.199.108–111.153) e `CNAME www → alessiocracchiolo.github.io`, entrambi in modalità *DNS only*.
+- **GitHub**: *Settings → Pages → Custom domain* = `rott4.com`, con *Enforce HTTPS* attivo.
+
+Il vecchio indirizzo `alessiocracchiolo.github.io/astro_blog` reindirizza automaticamente al dominio custom.
 
 ## Configurazione
 
