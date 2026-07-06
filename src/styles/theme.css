@@ -10,25 +10,35 @@
   --font-app: var(--font-google-sans-code);
 }
 
-/* Light theme values */
+/* Light theme values — giornata limpida sul mare */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
+  --background: #f8fbfd;
+  --foreground: #1f2d3a;
   --accent: #006cac;
+  --accent-2: #0a9396;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --muted: #dcebf3;
+  --muted-foreground: #5b6b7a;
+  --border: #d5e5ee;
+  --sea-gradient:
+    radial-gradient(55rem 26rem at 12% -6rem, rgba(0, 150, 199, 0.16), transparent 70%),
+    radial-gradient(42rem 22rem at 92% -4rem, rgba(72, 202, 228, 0.14), transparent 70%),
+    linear-gradient(180deg, #e2f1f9 0%, #f0f8fc 22rem, #f8fbfd 44rem);
 }
 
-/* Dark theme values */
+/* Dark theme values — mare di notte */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #0b1a2b;
+  --foreground: #e6eef6;
+  --accent: #4cc9f0;
+  --accent-2: #90e0ef;
+  --accent-foreground: #06121f;
+  --muted: #16324a;
+  --muted-foreground: #9db4c7;
+  --border: #1e3d58;
+  --sea-gradient:
+    radial-gradient(55rem 26rem at 12% -6rem, rgba(76, 201, 240, 0.14), transparent 70%),
+    radial-gradient(42rem 22rem at 92% -4rem, rgba(0, 119, 182, 0.22), transparent 70%),
+    linear-gradient(180deg, #061321 0%, #0a1828 22rem, #0b1a2b 44rem);
 }

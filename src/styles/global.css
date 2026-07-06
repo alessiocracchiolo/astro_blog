@@ -22,6 +22,8 @@
 
   body {
     background-color: var(--color-background);
+    background-image: var(--sea-gradient);
+    background-repeat: no-repeat;
   }
 }
 
@@ -35,6 +37,19 @@
 
 @utility active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-8;
+}
+
+/* Titoli con gradiente "onda": da blu oceano ad acqua */
+@utility text-gradient-sea {
+  background-image: linear-gradient(
+    90deg,
+    var(--foreground) 0%,
+    var(--accent) 55%,
+    var(--accent-2) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 :target {

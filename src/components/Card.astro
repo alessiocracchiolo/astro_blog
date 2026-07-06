@@ -1,31 +1,48 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { getPostUrl } from "@/utils/getPostPaths";
 import { toTransitionName } from "@/utils/toTransitionName";
 import Datetime from "./Datetime.astro";
 
 type Props = {
   variant?: "h2" | "h3";
+  index?: number;
 } & CollectionEntry<"posts">;
 
-const { variant: Heading = "h2", id, data, filePath } = Astro.props;
+const { variant: Heading = "h2", index, id, data, filePath } = Astro.props;
 
 const { title, description, ...props } = data;
 ---
 
-<li class="my-6">
+<li class="group border-border/70 border-b last:border-b-0">
   <a
     href={getPostUrl(id, filePath, Astro.currentLocale)}
-    class:list={[
-      "text-accent inline-block text-lg font-medium",
-      "decoration-dashed underline-offset-4 hover:underline",
-      "focus-visible:no-underline focus-visible:underline-offset-0",
-    ]}
+    class="flex items-baseline gap-x-4 py-6 sm:gap-x-6"
   >
-    <Heading transition:name={toTransitionName(title)}>
-      {title}
-    </Heading>
+    {
+      index !== undefined && (
+        <span
+          aria-hidden="true"
+          class="text-muted-foreground/60 group-hover:text-accent min-w-9 text-sm font-medium tabular-nums transition-colors duration-300"
+        >
+          {String(index + 1).padStart(2, "0")}
+        </span>
+      )
+    }
+    <div class="min-w-0 flex-1">
+      <Heading
+        transition:name={toTransitionName(title)}
+        class="group-hover:text-accent text-lg font-semibold transition-all duration-300 ease-out group-hover:translate-x-1 motion-reduce:transform-none sm:text-xl"
+      >
+        {title}
+      </Heading>
+      <Datetime {...props} class="mt-1" />
+      <p class="text-muted-foreground mt-2 leading-relaxed">{description}</p>
+    </div>
+    <IconArrowRight
+      aria-hidden="true"
+      class="text-accent size-5 shrink-0 -translate-x-2 self-center opacity-0 transition-all duration-300 ease-out group-hover:translate-x-0 group-hover:opacity-100 motion-reduce:transition-none rtl:rotate-180"
+    />
   </a>
-  <Datetime {...props} />
-  <p>{description}</p>
 </li>
