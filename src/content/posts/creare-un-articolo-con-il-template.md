@@ -3,7 +3,7 @@ title: Creare un nuovo articolo con il template
 description: Come usare il comando `npm run new` per generare un articolo già pronto da compilare, e come personalizzare il template di partenza.
 pubDatetime: 2026-07-06T18:00:00+02:00
 featured: false
-draft: false
+draft: true
 tags:
   - guida
   - blog

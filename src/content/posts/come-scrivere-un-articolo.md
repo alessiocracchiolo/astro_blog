@@ -3,7 +3,7 @@ title: Come scrivere un articolo su questo blog
 description: Guida pratica alla scrittura di un nuovo post — frontmatter, formattazione, callout e blocchi di codice — spiegata dentro un articolo di esempio.
 pubDatetime: 2026-07-06T10:00:00+02:00
 featured: false
-draft: false
+draft: true
 heroImage: ../../assets/images/esempio.svg
 heroImageAlt: Una barca a vela stilizzata sul mare al tramonto
 tags:

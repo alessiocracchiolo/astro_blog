@@ -1,22 +1,29 @@
 ---
-title: "Manifesto"
-description: "Cos'è Rotta, perché esiste e cosa troverai qui."
+title: "Rotta"
+description: "Il manifesto di Rotta — un viaggio senza Itaca, guidato dal vento."
+publishDate: 2026-07-24
+slug: "manifesto"
+draft: false
 ---
 
-Una rotta non è una linea retta. È una direzione che si corregge di continuo, tenendo conto del vento, delle correnti e di dove ci si trova davvero — non di dove si pensava di essere.
+> Quando ti metterai in viaggio per Itaca
+> devi augurarti che la strada sia lunga,
+> fertile in avventure e in esperienze.
 
-Questo blog si chiama **Rotta** per questo: non è un punto di arrivo, è il tracciato di un viaggio.
+Cosa si fa quando non si ha più una meta? Quando non c'è più un'Itaca da raggiungere?
 
-## Cosa troverai qui
+Da questa domanda nasce **Rotta**.
 
-Frammenti di vita, pensieri e idee. Riflessioni nate dalle esperienze di ogni giorno, dalle passioni che coltivo e dalle domande che non mi lasciano in pace. Niente pretese di verità assolute: appunti di navigazione, scritti soprattutto per fare chiarezza a me stesso — e condivisi nella speranza che siano utili anche a qualcun altro.
+La mia direzione non è chiara, ho deciso che sarà il vento a darmela.
 
-## Perché scrivere
+Per molto tempo ho corso senza guardare il viaggio: raggiungevo un obiettivo per inseguirne un altro, finché un giorno mi sono trovato perso, senza più una direzione da seguire.
 
-Scrivere obbliga a mettere ordine. Un pensiero che sembra chiaro in testa spesso si rivela confuso appena lo si mette su carta: scriverlo è il modo più onesto di verificarlo. Questo spazio è il mio diario di bordo, pubblico per scelta.
+È stato lì che mi sono fermato a guardare l'orizzonte, come non facevo da tempo.
 
-## Chi sono
+Sono sempre stato attratto dalle storie e dal loro significato più che dalla trama; un giorno ho letto una poesia di Kavafis, *Itaca*, e ha risvegliato in me un pensiero che avevo dimenticato: non avere fretta di arrivare, è nel viaggio che accumuli i tesori per strada, le risposte.
 
-Sono Alessio. Se vuoi dirmi qualcosa — un'idea, una critica, un saluto — mi trovi ai contatti in fondo alla pagina. Le conversazioni migliori nascono quasi sempre così.
+Rotta parte da qui: dalla curiosità di quel bambino seduto sulla sabbia, domandandosi dove finisse il mare e se un giorno avrebbe mai raggiunto il confine.
 
-Buona navigazione. ⛵
+Proverò a seguire il vento, imparando dalle storie, in ogni loro forma, analizzando ciò che vorranno dirmi per tracciarne una mappa.
+
+Non farti aspettative, piuttosto segui la rotta, perché senza di essa, forse, non ti saresti mai messo in viaggio.
